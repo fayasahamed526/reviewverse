@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ReviewVerse – Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0e0e0e;
+      color: #f2f2f2;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #111;
+      padding: 10px 20px;
+      border-bottom: 1px solid #222;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .logo {
+      color: #00f7ff;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    nav {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #f2f2f2;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #00f7ff;
+    }
+    .about {
+      text-align: center;
+      padding: 20px;
+      color: #ccc;
+    }
+    .container {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .review-card {
+      background-color: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      padding: 20px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+    }
+    .review-card h2 {
+      color: #00f7ff;
+      margin: 0 0 10px 0;
+    }
+    .review-card p {
+      color: #aaa;
+    }
+    .review-card a {
+      color: #00f7ff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .meta {
+      font-size: 0.9rem;
+      color: #777;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #555;
+      font-size: 0.8rem;
+    }
+    @media screen and (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">ReviewVerse</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#about">About</a>
+      <a href="#reviews">Reviews</a>
+    </nav>
+  </header>
+
+  <div id="about" class="about">
+    <p>Welcome to <strong>ReviewVerse</strong> — a minimal and powerful space for pure, honest, professional movie reviews. Curated by <strong>Fayas Ahamed</strong>.</p>
+  </div>
+
+  <div id="reviews" class="container">
+    <div class="review-card">
+      <h2><a href="joker-review-page.html">Joker (2019)</a></h2>
+      <div class="meta">BY FAYAS AHAMED | Directed by Todd Phillips | Genre: Psychological Thriller</div>
+      <p>Joaquin Phoenix’s performance is haunting and bold — this film explores madness in the most unsettling and realistic way possible. A must-watch.</p>
+      <p><strong>Rating:</strong> 5/5</p>
+      <p class="meta">Credit: Warner Bros.</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 ReviewVerse. All rights reserved.
+  </footer>
+</body>
+</html>
